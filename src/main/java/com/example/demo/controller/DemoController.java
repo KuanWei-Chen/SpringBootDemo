@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/accounts")
+@RequestMapping("")
 public class DemoController  extends BaseController {
     private final DemoService demoService;
 
